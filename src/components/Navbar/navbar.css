@@ -1,0 +1,120 @@
+.app__navbar{
+    display: flex;
+    align-items: center;
+    padding: 1rem 6rem;
+    font-family: var(--font-head);
+    color: var(--color-base);
+}
+
+.app__navbar-logo{
+    padding-right: 2rem;
+}
+
+.app__navbar-links{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.app__navbar-links-header{
+    display: flex;
+    flex: 0.7;
+    justify-content: space-between;
+}
+
+.app__navbar-links-header a{
+    font-size: 14px;
+}
+
+.app__navbar-links-sign{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.app__navbar-links-sign a{
+    padding-right: 2rem;
+}
+
+.app__navbar-links-sign button{
+    color: var(--color-base);
+    border-color: var(--color-base);
+}
+
+.app__navbar-menu{
+    display: none;
+}
+
+.app__navbar-menu-container_overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 80%;
+    background: var(--color-base);
+    transition: 0.5x ease;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.app__navbar-menu-container_overlay a{
+    color: var(--color-black);
+}
+
+.app__navbar-menu-button{
+    z-index: 2;
+}
+
+.app__navbar a:hover{
+    color: var(--color-grey);
+}
+
+@media screen and (max-width:1150px) {
+    .app__navbar-links-header{
+        display: none;
+    }
+
+    .app__navbar-links{
+        justify-content:flex-end;
+        margin: 0 2rem;
+    }
+
+    .app__navbar-menu{
+        display: flex;
+    }
+
+    .app__navbar-menu-container-sign{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .app__navbar{
+      padding: 1rem 4rem;
+    }
+}
+
+@media screen and (max-width:750px){
+    .app__navbar-links-sign{
+        display: none;
+    }
+
+    .app__navbar-menu-container-sign{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .app__navbar{
+        padding: 1rem 2rem;
+      }
+}

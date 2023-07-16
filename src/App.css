@@ -1,0 +1,53 @@
+.section__padding {
+    padding: 4rem 4rem;
+  }
+  
+  .section__margin{
+      margin: 4rem 6rem;
+  }
+
+.custom__button{
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5rem;
+    border: 1px solid silver;
+    font-family: var(--font-head);
+    outline-style: none;
+    background: none;
+    border-radius: 25rem;
+}
+
+.background-img{
+    background-image: url('C:\Users\tamrakar\Desktop\projects\camping_landingpage\src\assets\pexels-taryn-elliott-4405241.jpg');
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    background-size: cover;
+    background-color: var(--color-base);
+    height: 95vh;
+    border-bottom-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+}
+
+  @media screen and (max-width:1050px) {
+    .section__padding{
+      padding: 2rem 4rem;
+    }
+  
+  }
+  
+  @media screen and (max-width:750px){
+    .section__padding{
+      padding: 2rem 2rem;
+    }
+  }
+  
+  @media screen and (max-width:450px){
+    .section__padding{
+      padding: 1rem;
+    }
+
+    .background-img{
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    }
+  }

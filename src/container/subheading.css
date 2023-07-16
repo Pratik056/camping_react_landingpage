@@ -1,0 +1,80 @@
+.app__subheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-family: var(--font-head);
+}
+
+.app__subheading-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.app__subheading-img .heart{
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    padding: .1rem;
+    border-radius: 5px;
+    z-index: 4;
+    top: 25%;
+    right: -35%;
+}
+
+.app__subheading-img img{
+    width: 225px;
+    max-width: 500px;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+.app__subheading-img p{
+    margin-top: -2rem;
+    background: #fff;
+    padding: 1rem 1rem 0 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: var(--color-button);
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.app__subheading-text{
+    text-align: center;
+}
+
+.app__subheading-text h3{
+    padding-bottom: 0.5rem;
+}
+
+.app__subheading-text p{
+    padding-bottom: 1rem;
+    font-size: 12px;
+    font-family: var(--font-para);
+}
+
+.app__subheading-text button{
+    min-width: 50%;
+    border: none;
+    background: var(--color-base);
+}
+
+@media screen and (max-width:450px) {
+    .app__subheading-img img{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .app__subheading-img img{
+        width: 220px;
+    }
+}
