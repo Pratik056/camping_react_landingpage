@@ -48,11 +48,6 @@
 }
 
 @media screen and (max-width:450px){
-    .app__header-text{
-        text-align: end;
-        align-items: flex-end;
-    }
-
     .app__header-text h1{
         font-size: 28px;
     }

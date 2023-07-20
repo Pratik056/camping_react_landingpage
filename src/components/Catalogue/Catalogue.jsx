@@ -12,14 +12,14 @@ const Catalogue = () => {
       </div>
 
       <div className="app__catalogue-container">
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
-        <SubHeading img={img1} title="Trickle Creek ranch"/>
+        <SubHeading img={img1} title="Nagarkot"/>
+        <SubHeading img={img1} title="Mustang"/>
+        <SubHeading img={img1} title="Pokhara"/>
+        <SubHeading img={img1} title="Dhampus village"/>
+        <SubHeading img={img1} title="Begnas lake and Rupakot village"/>
+        <SubHeading img={img1} title="Nirmal Pokhari Village"/>
+        <SubHeading img={img1} title="Sikles Village"/>
+        <SubHeading img={img1} title="Naudada"/>
       </div>
     </div>
   )
